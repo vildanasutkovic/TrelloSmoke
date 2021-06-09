@@ -23,4 +23,4 @@ First we create a new Board, in our case named "vildanin board". Then we create 
 We wanted to have more than one member(admin), so we added new member "anidamusinovic" to a board. In the next step we assigned "anidamusinovic" to a "Laptop" card. Then, we moved card "Laptop" with it's user from current list "Mobitel" to another list "Frizider". After, we delete "Laptop" card, and delete board "vildanin board" afterwards.
 
 # Trello App.postman_environment.json
-In this file, there are all variables with their values that are used for performed smoke test.
+In this file, there are all variables with their values that are used for performed smoke test. Used variables are key, token, board_id, board_name, card_id, list_id_mobitel, list_id_frizider, anidas_id, vildanas_id, card_name. These variables are updated regularly according to the tests performed.
