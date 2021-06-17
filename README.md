@@ -18,7 +18,7 @@ In this file, there are several smoke tests written for testing the Trello App. 
   8. Delete a card
   9. Delete a board
 
-Tests are done in this order, so they can be performed logically. Each test is performed by opeing desired file and clicking blue "Send" button in the right-upper corner. The order of making things work is create: board, list, card, members, deletion. All tests are performed successfully.
+Tests are done in this order, so they can be performed logically. Each test is performed by opeing desired file and clicking blue "**Send**" button in the right-upper corner. The order of making things work is create: board, list, card, members, deletion. All tests are performed successfully.
 
 ## Steps
 First we create a new Board, in our case named "vildanin board". Then we create 2 lists in the board named "Mobitel" and "Frizider" so that we can manipulate with them later. After that, card named "Laptop" is added to the "Mobitel" list.
