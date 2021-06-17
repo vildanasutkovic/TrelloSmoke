@@ -1,6 +1,6 @@
 # TrelloSmoke
 
-Pre-requisite: Have Postman and Newman installed
+Pre-requisite: Have Postman and newman installed
 
 Attached are 2 files:
   1. Trello App.postman_collection.json
@@ -27,7 +27,7 @@ We wanted to have more than one member(admin), so we added new member "anidamusi
 # Trello App.postman_environment.json
 In this file, there are all variables with their values that are used for performed smoke test. Used variables are key, token, board_id, board_name, card_id, list_id_mobitel, list_id_frizider, anidas_id, vildanas_id, card_name. These variables are updated regularly according to the tests performed.
 
-# Running Trello App from terminal using Postman
+# Running Trello App from terminal using newman
 First, open Command Prompt or Terminal on your device. When it is opened, type "**newman run path_of_collection_file -e path_of_environment_file**" (without quotes), and press Enter. Your line should look something like this 
 
 **newman run /Users/vildana/Desktop/TrelloApp/Trello.App.postman_collection.json  -e /Users/vildana/Desktop/TrelloApp/Trello.App.postman_environment.json**
