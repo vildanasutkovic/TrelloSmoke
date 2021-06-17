@@ -1,6 +1,6 @@
 # TrelloSmoke
 
-Pre-requisite: Have Postman installed
+Pre-requisite: Have Postman and Newman installed
 
 Attached are 2 files:
   1. Trello App.postman_collection.json
